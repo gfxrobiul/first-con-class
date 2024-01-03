@@ -1,3 +1,30 @@
-h2{
-    color: red;
+*{
+    margin:0;
+    padding:0;
+}
+
+.hero{
+    background-image: url(/Images/Hero\ cow.jpg);
+    background-size: cover;
+    background-position:bottom center;
+    height:100vh;
+
+}
+
+.hero h1{
+    color:white;
+    text-align: center;
+    font-family: serif;
+    font-size: 100px;
+    padding-top: 60px;
+    letter-spacing: 5px;
+    word-spacing:20px;
+
+}
+.article{
+    margin:60px;
+    padding: 60px;
+    /* border:10px solid yellow; */
+    background-color: #04dcfe;
+
 }
